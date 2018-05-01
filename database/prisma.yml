@@ -1,8 +1,8 @@
 # The service name, this will be part of the endpoint of the Prisma API
-service: hackernews-node
+#service: hackernews-node
 
 # The deployment stage, this will also be part of the API endpoint
-stage: dev
+#stage: dev
 
 # Poits to the file that holds your data model
 datamodel: datamodel.graphql
@@ -11,4 +11,5 @@ datamodel: datamodel.graphql
 # This secret is used to sign JWTs which need to be included in the Authorization header of any HTTP requests made against the API
 secret: mysecret123
 
-cluster: public-deepskinner-646/prisma-eu1
+#cluster: public-deepskinner-646/prisma-eu1
+endpoint: https://eu1.prisma.sh/public-deepskinner-646/hackernews-node/dev
